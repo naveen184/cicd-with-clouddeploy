@@ -10,7 +10,7 @@ steps:
 
 
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/my-first-project-17342/sanket-clouddeploy-image:${COMMIT_SHA}']
+  args: ['push', 'gcr.io/my-first-project-17342/my-clouddeploy-image:${COMMIT_SHA}']
 # Create release in Google Cloud Deploy
 
 
